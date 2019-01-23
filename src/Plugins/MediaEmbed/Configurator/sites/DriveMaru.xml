@@ -1,0 +1,9 @@
+<site name="DriveMaru" homepage="http://drive.akumaru.com">
+	<example>http://drive.akumaru.com/video/KTPWzqHvlDkBq6Q/</example>
+
+	<tags><tag>videos</tag></tags>
+
+	<host>drive.akumaru.com</host>
+	<extract>!drive\.akumaru\.com/video/)(?'id'[a-z0-9]+)!i</extract>
+	<iframe src="//drive.akumaru.com/video/{@id}.html"/>
+</site>

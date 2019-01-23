@@ -1,0 +1,9 @@
+<site name="KedaiInformasi" homepage="https://kedaiinformasi.website">
+	<example>https://kedaiinformasi.website/video/KTPWzqHvlDkBq6Q/</example>
+
+	<tags><tag>videos</tag></tags>
+
+	<host>kedaiinformasi.website</host>
+	<extract>!kedaiinformasi\.website/video/)(?'id'[a-z0-9]+)!i</extract>
+	<iframe src="//kedaiinformasi.website/video/{@id}.html"/>
+</site>
